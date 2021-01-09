@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -13,11 +12,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
+        app:itemBackground="@color/pink"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:itemBackground="@color/pink"
-
 
 
         app:menu="@menu/bottom_nav">
@@ -29,26 +27,40 @@
         android:id="@+id/include"
         layout="@layout/content_in_stock"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:layout_gravity="bottom"
+    <!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+    <!--        android:id="@+id/fab"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="40dp"-->
+    <!--        android:layout_gravity="bottom"-->
 
-        android:layout_marginStart="352dp"
-        android:layout_marginLeft="352dp"
-        android:layout_marginEnd="24dp"
+    <!--        android:layout_marginStart="352dp"-->
+    <!--        android:layout_marginLeft="352dp"-->
+    <!--        android:layout_marginEnd="24dp"-->
 
-        android:layout_marginRight="24dp"
-        android:layout_marginBottom="28dp"
-        android:visibility="visible"
-        app:layout_constraintBottom_toTopOf="@+id/bottom_navigator"
-        app:layout_constraintEnd_toEndOf="@+id/include"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@android:drawable/ic_input_add"
-        tools:visibility="visible" />
+    <!--        android:layout_marginRight="24dp"-->
+    <!--        android:layout_marginBottom="28dp"-->
+    <!--        android:visibility="visible"-->
+    <!--        app:layout_constraintBottom_toTopOf="@+id/bottom_navigator"-->
+    <!--        app:layout_constraintEnd_toEndOf="@+id/include"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:srcCompat="@android:drawable/ic_input_add"-->
+    <!--        tools:visibility="visible" />-->
+
+<!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--        android:id="@+id/fab"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="end|bottom"-->
+
+<!--        android:layout_marginStart="280dp"-->
+<!--        android:layout_marginLeft="280dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/bottom_navigator"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/include"-->
+<!--        app:srcCompat="@android:drawable/ic_input_add" />-->
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

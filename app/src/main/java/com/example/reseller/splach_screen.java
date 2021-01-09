@@ -38,7 +38,7 @@ public class splach_screen extends AppCompatActivity
             @Override
             public void run()
             {
-                Intent intent = new Intent(splach_screen.this,MainActivity.class);
+                Intent intent = new Intent(splach_screen.this,Testing.class);
                 startActivity(intent);
                 finish();
             }

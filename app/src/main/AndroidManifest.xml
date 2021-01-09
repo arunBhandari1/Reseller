@@ -21,8 +21,8 @@
         </activity>
         <activity
             android:name=".Testing"
-            android:label="@string/title_activity_testing"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:label="RESELLER"
+            />
         <activity android:name=".redundant.summary" />
         <activity android:name=".redundant.sold_sneakers" />
         <activity

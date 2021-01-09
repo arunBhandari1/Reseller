@@ -7,6 +7,26 @@ android:layout_width="match_parent"
 android:layout_height="match_parent"
 tools:context=".fragement_inStock">
 
+    <!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--        android:id="@+id/fab"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_gravity="bottom"-->
+
+<!--        android:layout_marginStart="340dp"-->
+<!--        android:layout_marginLeft="340dp"-->
+
+<!--        android:layout_marginEnd="40dp"-->
+<!--        android:layout_marginRight="40dp"-->
+<!--        android:layout_marginBottom="40dp"-->
+<!--        android:visibility="visible"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:srcCompat="@android:drawable/ic_input_add"-->
+<!--        tools:visibility="visible" />-->
+
     <include
         android:id="@+id/include"
         layout="@layout/content_in_stock"
@@ -17,30 +37,28 @@ tools:context=".fragement_inStock">
 
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="20dp"
         android:layout_marginRight="20dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:layout_gravity="bottom"
+        android:layout_width="47dp"
+        android:layout_height="50dp"
+        android:layout_gravity="end|bottom"
 
-        android:layout_marginStart="340dp"
-        android:layout_marginLeft="340dp"
-
-        android:layout_marginEnd="40dp"
-        android:layout_marginRight="40dp"
+        android:layout_margin="16dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginLeft="148dp"
         android:layout_marginBottom="40dp"
-        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintEnd_toEndOf="@+id/include"
+        app:layout_constraintHorizontal_bias="0.926"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@android:drawable/ic_input_add"
-        tools:visibility="visible" />
+        app:srcCompat="@android:drawable/ic_input_add" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
